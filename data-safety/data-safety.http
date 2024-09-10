@@ -1,0 +1,31 @@
+### Variant 1
+GET https://localhost:5001/pseudo-random-numbers?
+    A=32&
+    X0=2&
+    C=0&
+    M=1023&
+    SequenceLength=10
+
+### Cycling
+GET https://localhost:5001/pseudo-random-numbers?
+    A=0&
+    X0=2&
+    C=0&
+    M=1023&
+    SequenceLength=10
+
+### My variant
+GET https://localhost:5001/pseudo-random-numbers?
+    A=1000&
+    X0=7&
+    C=377&
+    M=8388607&
+    SequenceLength=10
+
+### full period
+https://localhost:5001/pseudo-random-numbers?
+    A=16807&
+    X0=31&
+    C=17711&
+    M=2147483647&
+    SequenceLength=10
