@@ -1,0 +1,30 @@
+﻿###
+POST https://localhost:5001/rc5/decrypt?key=roma&fileName=appsettings-enc.json
+Content-Type: application/json
+
+{
+  "RoundCount": 12,
+  "WordLengthInBits": 1,
+  "KeyLengthInBytes": 32
+}
+
+
+###
+POST https://localhost:5001/rc5/encrypt?key=roma&fileName=appsettings.json
+Content-Type: application/json
+
+{
+  "RoundCount": 12,
+  "WordLengthInBits": 1,
+  "KeyLengthInBytes": 32
+}
+
+###
+POST https://localhost:5001/rc5/decrypt?key=rom&fileName=9bytes-enc.txt
+Content-Type: application/json
+
+{
+    "RoundCount": 12,
+    "WordLengthInBits": 1,
+    "KeyLengthInBytes": 32
+}

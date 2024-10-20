@@ -1,0 +1,5 @@
+﻿###
+GET https://localhost:5001/hash/string?input=
+
+###
+GET https://localhost:5001/hash/file?filePath=appsettings.json
