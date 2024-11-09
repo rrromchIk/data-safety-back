@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "data-safety", "data-safety\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "data-safety.Test", "data-safety.Test\data-safety.Test.csproj", "{D61EB3D5-4A72-4E11-A729-FD3015062EA7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "data-safety.console", "data-safety.console\data-safety.console.csproj", "{CD1BEB60-9DE3-4E9D-B562-5C4A7E9B6233}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{D61EB3D5-4A72-4E11-A729-FD3015062EA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D61EB3D5-4A72-4E11-A729-FD3015062EA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D61EB3D5-4A72-4E11-A729-FD3015062EA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD1BEB60-9DE3-4E9D-B562-5C4A7E9B6233}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD1BEB60-9DE3-4E9D-B562-5C4A7E9B6233}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD1BEB60-9DE3-4E9D-B562-5C4A7E9B6233}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD1BEB60-9DE3-4E9D-B562-5C4A7E9B6233}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
