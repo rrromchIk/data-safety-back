@@ -1,0 +1,7 @@
+﻿###
+GET https://localhost:5001/dsa/string?
+    input=hello
+
+###
+GET https://localhost:5001/dsa/file?
+    filePath=7bytes.txt
